@@ -13,9 +13,10 @@ const dumpData = () => {
     connection.query('select * from sample.sample', (err, results)=> {
       if(results.length === 0) {
         connection.query('insert into sample.sample values(1,"sample")', (err, res)=> {
-          resolve();
+          return resolve();
         })
       }
+      resolve();
     })
   })
 }
