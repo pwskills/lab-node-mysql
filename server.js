@@ -1,5 +1,5 @@
 const express = require('express');
-const { default: connection } = require('./db');
+const connection = require('./db');
 const app = express();
 
 const PORT = process.env.PUBLIC_PORT || 4000;
