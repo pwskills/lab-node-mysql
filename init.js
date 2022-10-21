@@ -13,7 +13,6 @@ const dumpData = () => {
     connection.query('select * from sample.sample', (err, results)=> {
       if(results.length === 0) {
         connection.query('insert into sample.sample values(1,"sample")', (err, res)=> {
-          console.log(err, res)
           resolve();
         })
       }
@@ -28,7 +27,7 @@ connection.query('CREATE DATABASE IF NOT EXISTS sample', async() => {
 
   console.log('TABLE CREATED');
 
-  await dumpData();
+  await dumpData().catch();
 
   process.exit(0);
 });
