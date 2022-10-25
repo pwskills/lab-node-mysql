@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "cweijan.vscode-mysql-client2",
+    "cweijan.vscode-database-client2",
+    "formulahendry.code-runner",
+    "xabikos.JavaScriptSnippets",
+    "ms-vscode.vscode-typescript-next",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "VisualStudioExptTeam.intellicode-api-usage-examples"
+  ]
+}
