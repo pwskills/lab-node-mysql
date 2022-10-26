@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "cweijan.vscode-mysql-client2",
-    "cweijan.vscode-database-client2",
     "formulahendry.code-runner",
     "xabikos.JavaScriptSnippets",
     "ms-vscode.vscode-typescript-next",
